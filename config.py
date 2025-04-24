@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7649965505:AAEUQhPf-2hYKHIt1eC5-aqUuUq7pT85HA4")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
@@ -22,7 +22,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6449644059"))
 PORT = os.environ.get("PORT", "8585")
 
 #Database 
-Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
+
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://skvsmdarman225:starzplay225@cluster0.1vftecq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "sample_mflix")
 
