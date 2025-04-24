@@ -30,7 +30,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "sample_mflix")
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.modijiurl.com/api")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.modijiurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "086c301fc06b961106da0c905cde06c368207ba0")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
