@@ -22,7 +22,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6449644059"))
 PORT = os.environ.get("PORT", "8585")
 
 #Database 
-#Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
+Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://skvsmdarman225:starzplay225@cluster0.1vftecq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "sample_mflix")
 
